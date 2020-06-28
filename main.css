@@ -9,6 +9,22 @@ html {
   scroll-behavior: smooth;
 }
 
+
+h1 { font-size: 1rem; }
+
+@media (min-width: 576px) {
+    h1 { font-size: 2.5rem; }
+}
+@media (min-width: 768px) {
+    h1 { font-size: 3rem; }
+}
+@media (min-width: 992px) {
+    h1 { font-size: 3.7rem; }
+}
+@media (min-width: 1200px) {
+    h1 { font-size: 3.7rem; }
+}
+
 body {
   background: #fff;
   font-family: 'Raleway', sans-serif;
@@ -36,6 +52,10 @@ a:hover {
 .align-center {
   text-align: center;
 }
+
+/*#header {
+  font-size: 3.2vw;
+}*/
 
 #header-img {
     display: block;
@@ -92,6 +112,40 @@ a:hover {
   background-color: black;
   height: 350px;
   width: 100%;
+}
+
+@media (min-width: 576px) {
+  .main-container {
+    padding: 0 48px;
+  }
+}
+@media (min-width: 768px) {
+  .main-container {
+    padding: 0 64px;
+  }
+}
+@media (min-width: 992px) {
+  .main-container {
+    padding: 0 83px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-container {
+    padding: 0 100px;
+  }
+}
+
+#left_frame,
+#right_frame {
+    float: left;
+}
+
+#left_frame {
+    width: calc(50% - 4px);
+}
+
+#right_frame {
+    width: calc(50% - 4px);
 }
 
 .para {

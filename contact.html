@@ -16,9 +16,9 @@
       <link rel ="stylesheet" href ="main.css">
     </head>
     <body>
-      <div class = "container">
+      <div class = "container-fluid">
          <a href="index.html"><img id="header-img" src="images/logo.png" alt="company-logo"></a>
-         <h1 class = "align-center">CIARAN GRAVESTOCK</h1>
+         <h1 class = "align-center" id = "header">CIARAN GRAVESTOCK</h1>
          <div>
            <nav>
              <ul class = "nav-bar">
@@ -51,24 +51,26 @@
              <img src="images/LINKEDIN.png" alt="Twitter Logo" class="social-icon">
            </a>
          </div>
-         <div>
-           <p class = "align-center">Thank you for checking out my work!</p>
-           <p class = "align-center">Please feel free to reach out! I'm very happy to answer any inquiries about my <br> services and work.  Fill in the forum below or use my socials to contact.</p>
-         </div>
-         <div class = "row">
-           <div class = "col-md-6 align-center">
-             <label id="name-label" for="name">First Name<span class="mandatory">*</span></label><br>
-             <input id="name" type="text" name="full_name" placeholder="Enter your name here" required/>
+         <div class = "main-container">
+           <div>
+             <p class = "align-center">Thank you for checking out my work!</p>
+             <p class = "align-center">Please feel free to reach out! I'm very happy to answer any inquiries about my <br> services and work.  Fill in the forum below or use my socials to contact.</p>
            </div>
-           <div class = "col-md-6 align-center">
-             <label id="name-label" for="name">Last Name<span class="mandatory">*</span></label><br>
-             <input id="name" type="text" name="full_name" placeholder="Enter your name here" required/>
-          </div>
-          </div>
-          <div>
-            <label id="comments">Any additional comments or suggestions?</label><br>
-            <textarea type="text" placeholder="Enter your comments here....."></textarea><br>
-          </div>
+           <div class = "row">
+             <div class = "col-md-6 align-center">
+               <label id="name-label" for="name">First Name<span class="mandatory">*</span></label><br>
+               <input id="name" type="text" name="full_name" placeholder="Enter your name here" required/>
+             </div>
+             <div class = "col-md-6 align-center">
+               <label id="name-label" for="name">Last Name<span class="mandatory">*</span></label><br>
+               <input id="name" type="text" name="full_name" placeholder="Enter your name here" required/>
+             </div>
+           </div>
+           <div>
+             <label id="comments">Any additional comments or suggestions?</label><br>
+             <textarea type="text" placeholder="Enter your comments here....."></textarea><br>
+           </div>
+         </div>
       </div>
     </body>
 </html>
