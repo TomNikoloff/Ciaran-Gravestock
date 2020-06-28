@@ -78,6 +78,10 @@ a:hover {
   height: 30px;
 }
 
+#sub-nav {
+  padding-top: 30px;
+}
+
 .block-filler {
   background-color: black;
   height: 600px;
