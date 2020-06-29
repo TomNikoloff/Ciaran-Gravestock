@@ -115,6 +115,27 @@ a:hover {
 }
 
 @media (min-width: 576px) {
+  .index-container {
+    padding: 0 48px;
+  }
+}
+@media (min-width: 768px) {
+  .index-container {
+    padding: 0 64px;
+  }
+}
+@media (min-width: 992px) {
+  .index-container {
+    padding: 0 83px;
+  }
+}
+@media (min-width: 1200px) {
+  .index-container {
+    padding: 0 400px;
+  }
+}
+
+@media (min-width: 576px) {
   .main-container {
     padding: 0 48px;
   }
@@ -158,4 +179,7 @@ textarea {
   resize: vertical;
   padding: 5px 0 0 5px;
   font: inherit;
+}
+.li_dot:before {
+content: ".";
 }
