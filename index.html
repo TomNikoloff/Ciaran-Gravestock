@@ -18,12 +18,15 @@
     </head>
     <body>
       <div class = "container-fluid">
-        <div>
+        <div id = "top-section">
          <a href="#header"><img id="header-img" src="images/logo.png" alt="company-logo"></a>
          <h1 class = "align-center" id = "header">CIARAN GRAVESTOCK</h1>
         </div>
         <nav class="navbar navbar-expand-md ">
-          <a class="navbar-brand" href="#"></a>
+          <a id = "logo" class="navbar-brand" href="index.html">
+            <img src="images/logo.png" width="40" height="100%" alt="">
+            <span>CIARAN GRAVESTOCK</span>
+          </a>
 
             <!-- Collapse button -->
             <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
@@ -40,9 +43,15 @@
                   <a class="nav-link" href="about.html"><strong>About</strong></a>
                 </li>
                 <span class="nav-link-style">
-                <li class="nav-item li_dot">
-                  <a class="nav-link" href="photography.html"><strong>Photography</strong></a>
-                </li>
+                  <li class="nav-item li_dot dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <strong>Photography</strong>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
                 <li class="nav-item li_dot">
                   <a class="nav-link" href="videography.html"><strong>Videography</strong></a>
                 </li>
