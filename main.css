@@ -92,9 +92,6 @@ color: grey;
   margin-left: 0.7em;
 }
 
-#sub-nav {
-  padding-top: 30px;
-}
 
 .block-filler {
   background-color: black;
@@ -173,15 +170,6 @@ textarea {
   resize: vertical;
   padding: 5px 0 0 5px;
   font: inherit;
-}
-
-@media only screen and ( max-width:1024px) {
-	#mobile-nav {
-		display: block;
-	}
-	#top-nav {
-		display: none;
-	}
 }
 
 /* Icon 1 */
