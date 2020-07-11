@@ -64,19 +64,15 @@ a:hover {
     height: 10vh;
 }
 
-#nav-bar {
-  text-align: center;
-}
-
 #socials {
-  padding: 20px 0;
+  padding: 15px 0;
   text-align: center;
 }
 
 .social-icon {
-  width: 30px;
-  height: 30px;
-  margin-left: 0.7em;
+  width: 25px;
+  height: 25px;
+  margin-left: 0.5em;
 }
 
 @media (min-width: 576px) {
@@ -219,6 +215,11 @@ top: 11px;
 transform: rotate(-135deg);
 }
 
+#nav-bar {
+  text-align: right;
+  float: right;
+
+}
 
 
 @media (max-width: 768px) {
@@ -233,6 +234,9 @@ transform: rotate(-135deg);
   }
   #socials {
     display: none;
+  }
+  #nav-bar {
+    padding-right: 0.75rem;
   }
 }
 
