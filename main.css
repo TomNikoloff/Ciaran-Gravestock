@@ -196,7 +196,7 @@ transition: .25s ease-in-out;
 }
 
 .animated-icon1 span {
-background: #e65100;
+background: white;
 }
 
 .animated-icon2 span {
@@ -331,7 +331,10 @@ left: 8px;
 
 @media (max-width: 768px) {
   .navbar {
-    background-color: darkgrey;
+    background-color: black;
+  }
+  .nav-link {
+  color: #fff !important;
   }
 }
 
