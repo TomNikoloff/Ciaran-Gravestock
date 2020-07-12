@@ -53,14 +53,10 @@ a:hover {
   text-align: center;
 }
 
-/*#header {
-  font-size: 3.2vw;
-}*/
 
 #header-img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     height: 10vh;
 }
 
@@ -218,7 +214,6 @@ transform: rotate(-135deg);
 #nav-bar {
   text-align: right;
   float: right;
-
 }
 
 
@@ -237,6 +232,9 @@ transform: rotate(-135deg);
   }
   #nav-bar {
     padding-right: 0.75rem;
+  }
+  .hide-small {
+    display: none;
   }
 }
 
@@ -267,9 +265,13 @@ transform: rotate(-135deg);
   #logo {
     display: none;
   }
-  #dropdown {
+  .hide-big {
     display: none;
   }
+  .hide-small {
+    display: inline-block;
+  }
+
 }
 
 .navbar-toggler:focus,
