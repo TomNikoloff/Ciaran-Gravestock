@@ -13,37 +13,32 @@ html {
 h1 { font-size: 1rem; }
 
 @media (min-width: 576px) {
-    h1 { font-size: 2.5rem; }
+    h1 { font-size: 2.5rem;
+    }
+    .index-container {
+      padding: 0 48px;
+    }
 }
 @media (min-width: 768px) {
-    h1 { font-size: 3rem; }
+    h1 { font-size: 3rem;
+    }
+    .index-container {
+      padding: 0 64px;
+    }
 }
 @media (min-width: 992px) {
-    h1 { font-size: 3.7rem; }
+    h1 { font-size: 3.7rem;
+    }
+    .index-container {
+      padding: 0 83px;
+    }
 }
 @media (min-width: 1200px) {
-    h1 { font-size: 3.7rem; }
-}
-
-@media (min-width: 576px) {
-  .index-container {
-    padding: 0 48px;
-  }
-}
-@media (min-width: 768px) {
-  .index-container {
-    padding: 0 64px;
-  }
-}
-@media (min-width: 992px) {
-  .index-container {
-    padding: 0 83px;
-  }
-}
-@media (min-width: 1200px) {
-  .index-container {
-    padding: 0 400px;
-  }
+    h1 { font-size: 3.7rem;
+    }
+    .index-container {
+        padding: 0 400px;
+      }
 }
 
 @media (min-width: 576px) {
