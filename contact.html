@@ -14,6 +14,7 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
       <script src="script.js"></script>
       <link rel ="stylesheet" href ="main.css">
+      <script src="https://kit.fontawesome.com/0ff32d8fcb.js" crossorigin="anonymous"></script>
     </head>
     <body>
       <div class = "container-fluid">
@@ -65,37 +66,62 @@
                 <li class="nav-item li_dot">
                   <a class="nav-link" href='contact.html'><strong>Contact</strong></a>
                 </li>
+                <div class = "hide-big">
+                  <ul class = "navbar-nav nav-flex-icons flex-row">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://vimeo.com/user65399121" target = "_blank">
+                        <i class="fab fa-vimeo-v">
+                        </i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href = "https://www.instagram.com/ciarangravestock/" target = "_blank">
+                        <i class="fab fa-instagram">
+                        </i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.linkedin.com/in/ciaran-gravestock-b8abb41b0/" target = "_blank">
+                        <i class="fab fa-linkedin-in">
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </ul>
             </div>
             <!-- Collapsible content -->
           </nav>
-        <div id = "socials" class= "text-center hide-small">
-           <a href="https://vimeo.com/user65399121" target="_blank">
-             <img src="images/VIMEO.png" alt="Instagram Logo" class="social-icon">
-           </a>
-           <a href="https://www.instagram.com/ciarangravestock/" target="_blank">
-             <img src="images/INSTAGRAM.png" alt="Facebook Logo" class="social-icon">
-           </a>
-           <a href="https://www.linkedin.com/in/ciaran-gravestock-b8abb41b0/" target="_blank">
-             <img src="images/LINKEDIN.png" alt="Twitter Logo" class="social-icon">
-           </a>
-         </div>
+          <div  class = "text-center hide-small">
+            <a href="https://vimeo.com/user65399121" target = "_blank">
+              <i class="fa-lg fab fa-vimeo-v social-padding">
+              </i>
+            </a>
+             <a href = "https://www.instagram.com/ciarangravestock/" target = "_blank">
+               <i class="fa-lg fab fa-instagram social-padding">
+               </i>
+             </a>
+             <a href="https://www.linkedin.com/in/ciaran-gravestock-b8abb41b0/" target = "_blank">
+               <i class="fa-lg fab fa-linkedin-in social-padding">
+               </i>
+             </a>
+           </div>
          <div class = "main-container">
            <div class = "text-center">
              <p>Thank you for checking out my work!</p>
              <p>Please feel free to reach out! I'm very happy to answer any inquiries about my <br> services and work.  Fill in the forum below or use my socials to contact.</p>
            </div>
            <div class = "row">
-             <div class = "col-md-6 align-center">
+             <div class = "col-md-3">
                <label id="name-label" for="name">First Name<span class="mandatory">*</span></label><br>
                <input id="name" type="text" name="full_name" placeholder="Enter your name here" required/>
              </div>
-             <div class = "col-md-6 align-center">
+             <div class = "col-md-9">
                <label id="name-label" for="name">Last Name<span class="mandatory">*</span></label><br>
                <input id="name" type="text" name="full_name" placeholder="Enter your name here" required/>
              </div>
            </div>
-           <div>
+           <div style = "padding: 20px 0;">
              <label id="comments">Any additional comments or suggestions?</label><br>
              <textarea type="text" placeholder="Enter your comments here....."></textarea><br>
            </div>
