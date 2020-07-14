@@ -113,9 +113,20 @@ a:hover {
 }
 
 #header-img {
-    display: block;
-    margin: 0 auto;
-    height: 10vh;
+  display: block;
+  margin: 0 auto;
+  height: 10vh;
+}
+
+#sub-nav {
+  margin: 0 auto;
+  width: 450px;
+  }
+
+
+.sub-flex {
+  display: flex;
+  justify-content: space-around;
 }
 
 #socials {
@@ -233,6 +244,7 @@ transform: rotate(-135deg);
   float: right;
 }
 
+
 .flex-row {
   flex-direction: row;
   justify-content: flex-end;
@@ -246,9 +258,6 @@ i {
   display: inline-block;
   margin-left: 0.3em;
 }
-
-
-
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
