@@ -2,7 +2,7 @@
 <html>
     <head>
       <meta charset ="utf-8">
-      <meta name ="description" content ="The Little Polytunnel">
+      <meta name ="description" content ="Ciaran Gravestock">
       <meta name ="author" content ="Thomas Nikoloff">
       <meta name ="keywords" content="Survey, Form">
       <meta name ="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,60 +12,117 @@
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+      <script src="script.js"></script>
       <link rel ="stylesheet" href ="../main.css">
+      <script src="https://kit.fontawesome.com/0ff32d8fcb.js" crossorigin="anonymous"></script>
     </head>
     <body>
       <div class = "container-fluid">
+        <div class = "hide-small">
          <a href="../index.html"><img id="header-img" src="images/logo.png" alt="company-logo"></a>
-         <h1 class = "align-center">CIARAN GRAVESTOCK</h1>
-         <div>
-           <nav>
-             <ul class = "nav-bar">
-               <li>
-                 <a href="../about.html"><strong>About</strong></a>
-               </li>
-               <span class="nav-link-style">
-               <li class = "li_dot">
-                 <a href="../photography.html"><strong>Photography</strong></a>
-               </li>
-               <li class = "li_dot">
-                 <a href="../videography.html"><strong>Videography</strong></a>
-               </li>
-               </span>
-               <li class = "li_dot">
-                 <a href="../contact.html"><strong>Contact</strong></a>
-               </li>
-             </ul>
-         </nav>
+         <h1 class = "text-center" id = "header">CIARAN GRAVESTOCK</h1>
         </div>
-        <div id = "sub-nav">
-          <ul class = "nav-bar">
-            <li>
-              <a href="events.html"><strong>Events</strong></a>
-            </li>
-            <li>
-              <a href="landscape.html"><strong>Landscape</strong></a>
-            </li>
-            <li>
-              <a href="nature.html"><strong>Nature</strong></a>
-            </li>
-            <li>
-              <a href="../photography.html"><strong>Widlife</strong></a>
-            </li>
-          </ul>
-        </div>
-        <div id = "socials">
-           <a href="https://vimeo.com/user65399121" target="_blank">
-             <img src="images/VIMEO.png" alt="Instagram Logo" class="social-icon">
-           </a>
-           <a href="https://www.instagram.com/ciarangravestock/" target="_blank">
-             <img src="images/INSTAGRAM.png" alt="Facebook Logo" class="social-icon">
-           </a>
-           <a href="https://www.linkedin.com/in/ciaran-gravestock-b8abb41b0/" target="_blank">
-             <img src="images/LINKEDIN.png" alt="Twitter Logo" class="social-icon">
-           </a>
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand hide-big" href="../index.html">
+            <img src="images/logo.png" width="40" height="100%" alt="">
+            <span style = "color: black;">CIARAN GRAVESTOCK</span>
+          </a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+              aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+              <div class="animated-icon1"><span></span><span></span><span></span></div>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent20">
+              <ul id = "nav-bar" class="navbar-nav mx-auto float-lg-none text-lg-center">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../about.html"><strong>About</strong></a>
+                  </li>
+                <span class="nav-link-style">
+                <div class = "hide-small inline-block-big">
+                  <li class="nav-item li_dot">
+                    <a class="nav-link" href="../photography.html"><strong>Photography</strong></a>
+                  </li>
+                </div>
+                <div class = "hide-big">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="../photography.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <strong>Photography</strong>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="events.html"><strong>Events</strong></a>
+                      <a class="dropdown-item" href="landscape.html"><strong>Landscape</strong></a>
+                      <a class="dropdown-item" href="nature.html"><strong>Nature</strong></a>
+                      <a class="dropdown-item" href="../photography.html"><strong>Wildlife</strong></a>
+                    </div>
+                  </li>
+                </div>
+                <li class="nav-item li_dot">
+                  <a class="nav-link" href="../videography.html"><strong>Videography</strong></a>
+                </li>
+              </span>
+                <li class="nav-item li_dot">
+                  <a class="nav-link" href='../contact.html'><strong>Contact</strong></a>
+                </li>
+                <div class = "hide-big">
+                  <ul class = "navbar-nav nav-flex-icons flex-row">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://vimeo.com/user65399121" target = "_blank">
+                        <i class="fab fa-vimeo-v">
+                        </i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href = "https://www.instagram.com/ciarangravestock/" target = "_blank">
+                        <i class="fab fa-instagram">
+                        </i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.linkedin.com/in/ciaran-gravestock-b8abb41b0/" target = "_blank">
+                        <i class="fab fa-linkedin-in">
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </ul>
+            </div>
+            <!-- Collapsible content -->
+          </nav>
+          <div id = "sub-nav" class = "hide-small text-center">
+            <ul class = "list-inline sub-flex">
+              <li class="list-inline-item">
+                <a href="events.html"><strong>Events</strong></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="landscape.html"><strong>Landscape</strong></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="nature.html"><strong>Nature</strong></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="../photography.html"><strong>Widlife</strong></a>
+              </li>
+            </ul>
          </div>
+
+      <div  class = "text-center hide-small">
+        <a href="https://vimeo.com/user65399121" target = "_blank">
+          <i class="fa-lg fab fa-vimeo-v social-padding">
+          </i>
+        </a>
+         <a href = "https://www.instagram.com/ciarangravestock/" target = "_blank">
+           <i class="fa-lg fab fa-instagram social-padding">
+           </i>
+         </a>
+         <a href="https://www.linkedin.com/in/ciaran-gravestock-b8abb41b0/" target = "_blank">
+           <i class="fa-lg fab fa-linkedin-in social-padding">
+           </i>
+         </a>
+       </div>
          <div class = "main-container">
            <p class = "align-center">Capturing wildlife is always fasinating. To capture so much life within a single photo brings out some of the best creativity.</p>
            <div class="row">
