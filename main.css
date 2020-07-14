@@ -265,3 +265,8 @@ i {
     outline: none;
     box-shadow: none;
 }
+
+#coming-soon {
+  font-size: 10em;
+  padding-top: 20vh;
+}
