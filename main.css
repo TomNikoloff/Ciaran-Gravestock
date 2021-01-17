@@ -16,7 +16,7 @@ h1 { font-size: 1rem; }
     h1 { font-size: 2rem;
     }
     #header-mobile {
-      font-size: 4.5vw
+      font-size: 4vw
     }
     .index-container
     .about-container
@@ -133,6 +133,7 @@ a:hover {
 
 
 .sub-flex {
+  font-size: 0.9rem;
   display: flex;
   justify-content: space-around;
 }
