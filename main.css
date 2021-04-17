@@ -298,3 +298,8 @@ i {
 #submit-div {
   min-height: 50px;
 }
+
+.coming-soon {
+  padding-top: 10vh;
+  font-size: 4.5rem;
+}
