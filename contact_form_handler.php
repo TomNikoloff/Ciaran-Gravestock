@@ -10,7 +10,6 @@
         $message = $_POST['message'];
         
         $to = "ciaran@gravestock.net";
-        $body = "";
     
         $body .= "From: ".$userName. "\r\n";
         $body .= "Email: ".$userEmail. "\r\n";
