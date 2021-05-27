@@ -41,7 +41,7 @@ h1 { font-size: 1rem; }
     }
     #nav-bar a{
       display:inline-block;
-      padding:0 50px;
+      padding:0 40px;
     }
     /*.nav-link-style {
         padding-bottom: 20px;
@@ -69,6 +69,9 @@ h1 { font-size: 1rem; }
     .about-container
     .main-container {
       padding: 0 83px;
+    }
+    #nav-bar a{
+      padding:0 50px;
     }
 }
 @media (min-width: 1200px) {
