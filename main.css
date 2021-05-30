@@ -15,18 +15,14 @@ h1 { font-size: 1rem; }
 @media (min-width: 576px) {
     h1 { font-size: 2rem;
     }
-    .index-container
-    .about-container
-    .main-container {
+    .index-container {
       padding: 0 48px;
     }
 }
 @media (min-width: 768px) {
     h1 { font-size: 3rem;
     }
-    .index-container
-    .about-container
-    .main-container {
+    .index-container{
       padding: 0 64px;
     }
     #nav-bar{
@@ -65,9 +61,7 @@ h1 { font-size: 1rem; }
     #nav-bar {
       font-size: 1rem;
     }
-    .index-container
-    .about-container
-    .main-container {
+    .index-container {
       padding: 0 83px;
     }
     #nav-bar a{
@@ -78,13 +72,7 @@ h1 { font-size: 1rem; }
     h1 { font-size: 3.7rem;
     }
     .index-container {
-        padding: 0 350px;
-    }
-    .main-container {
-        padding: 0 400px;
-    }
-    .about-container {
-        padding: 0 200px;
+        padding: 0 150px;
     }
 }
 
@@ -340,4 +328,21 @@ i {
 .link--anim1:hover::before {
   transform-origin: 0% 50%;
   transform: scale3d(1, 1, 1);
+}
+
+@media (min-width: 1600px) {
+  .index-container {
+      padding: 0 200px;
+  }
+
+@media (min-width: 1750px) {
+  .index-container {
+      padding: 0 275px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .index-container {
+      padding: 0 350px;
+  }
 }
